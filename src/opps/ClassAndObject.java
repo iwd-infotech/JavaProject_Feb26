@@ -3,9 +3,16 @@ package opps;
 public class ClassAndObject {
 
 	public static void main(String[] args) {
-		ClassAndObject seema = new ClassAndObject();
-		seema.eating();
-
+//		ClassAndObject - Class name
+//		dev - reference variable
+//		new - keyword
+//		ClassAndObject() - constructor
+//		new ClassAndObject();   - object
+		
+		ClassAndObject dev = new ClassAndObject();
+		dev.eating();
+		dev.running();
+		dev.speaking();
 	}
 	
 	public void eating() {
@@ -13,11 +20,11 @@ public class ClassAndObject {
 	}
 	
 	public void running() {
-		System.out.println("Eating");
+		System.out.println("Running");
 	}
 	
 	public void speaking() {
-		System.out.println("Eating");
+		System.out.println("Speaking");
 	}
 
 }
